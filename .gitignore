@@ -1,0 +1,46 @@
+# Raw and large datasets
+sec_metric_facts.csv
+num.txt
+pre.txt
+sub.txt
+tag.txt
+financial-statement-data-sets.pdf
+
+# Generated outputs (large or intermediate)
+research_phase_1/financial_tag_inventory.csv
+research_phase_1/data_quality_report.csv
+research_phase_1/audit_summary.json
+research_phase_1/yoy_validation_results.json
+research_phase_1/analysis_readiness.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# Scratch and exploratory scripts
+explore_data.py
+validate_dataset.py
